@@ -24,13 +24,13 @@ Get familiar with these, specifially the mongo schema and model.. because we wil
 ## Users CRUD
 We are going to walk through the basic CRUD commands for a collection of users. All code manipulation will occur in either the controllers file or the routes file and sometimes you will need to update both. Make sure to check, even if the instructions don't specify. 
 
-### Part 1 - POST (Create)
+### Part 1 - POST (Create) √√√
 
-1. In the UsersController (`express/controllers/users.js`), fill out the `createDefault` function so that it inserts the default user into the database
+1. In the UsersController (`express/controllers/users.js`), fill out the `createDefault` function so that it inserts the default user into the database √√√
 
 2. Make a POST request to `/users/default`. Did it do what we expected? How do we know?
   - Skip down to the section titled `Viewing your data`
-  - Is there any data?
+  - Is there any data? √√√
 
 3. Make a POST request to `/users` and include a body with a name and age. Modify the appropriate functions in `routes.js` and `controllers.js` to insert this user into the database
 
@@ -51,13 +51,13 @@ We are going to walk through the basic CRUD commands for a collection of users. 
   - Did you notice the status code?
   - How did we handle that? Find it in the code
 
-### Part 3 - PUT (Update)
+### Part 3 - PUT (Update) √√√
 
 1. Modify the code in the `updateUser` function in the controller to update ONLY ONE user by it's name. Update the user with the body of the request you are passing in.
 
 2. Run the GET request for that user (Part 2, Step 3) to verify the user has been updated
 
-### Part 4 - DELETE (Delete)
+### Part 4 - DELETE (Delete) √√√
 
 1. Modify the code in the `deleteUser` function in the controller to delete ONLY ONE user by it's name.
 
